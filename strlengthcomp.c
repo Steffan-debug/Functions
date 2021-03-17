@@ -3,7 +3,7 @@
 
 char user1[50], user2[50];
 
-void strdifferences(){
+void differences(){
   printf("Write the first phrase: ");
   scanf("%s", user1);
   printf("Write the second phrase: ");
@@ -27,7 +27,7 @@ void strdifferences(){
 
 int main(void) {
 
-  strdifferences();
+  differences();
 
   return 0;
     }
